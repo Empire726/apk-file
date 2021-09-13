@@ -1,0 +1,57 @@
+.logo{
+    padding-top: 100px;
+    margin: 0;
+    height: 80vh;
+    width: 100%;
+   background: radial-gradient(ellipse at top, #79EBFD , transparent),
+            radial-gradient(ellipse at bottom, #408bff, transparent);
+    text-align: center;
+    
+}
+.diver{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     background-color: #408bff;
+  transition: 0.3s;
+  align-items: center;
+  height: 20rem;
+  width: 13rem;
+  padding: auto;
+  margin: auto;
+  border-radius: 1rem;
+}
+.drive:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.logo img{
+    color: #408bff;
+    height: 80%;
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.anchor{
+ 
+    padding: 2rem;
+    
+}
+.anchor a{
+border-radius: 1rem;
+}
+
+.btn{
+     align-items: center;
+    color: blue;
+   
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite; 
+}
