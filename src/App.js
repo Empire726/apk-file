@@ -1,7 +1,7 @@
 import React from "react"
 // import './App.css';
 import Logo from './Component/Download';
-import Header2 from './Component/Navbar';
+// import Header2 from './Component/Navbar';
 
 function App() {
   return (

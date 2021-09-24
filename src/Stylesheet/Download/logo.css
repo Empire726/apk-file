@@ -5,25 +5,31 @@
     width: 100%;
    background: radial-gradient(ellipse at top, #79EBFD , transparent),
             radial-gradient(ellipse at bottom, #408bff, transparent);
-    text-align: center;
-    
+    text-align: center; 
 }
+
 .diver{
     justify-content: center;
     align-items: center;
     text-align: center;
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     box-shadow: 2px 4px 8px 8px  #79EBFD ;
      background-color: #408bff;
   transition: 0.3s;
   align-items: center;
-  height: 20rem;
-  width: 13rem;
+  height: 22rem;
+  width: 15rem;
   padding: auto;
   margin: auto;
   border-radius: 1rem;
 }
+
 .drive:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.drive img{
+  color: blue;
+   /* visibility: hidden;   */
+  
 }
 
 .logo img{
@@ -33,7 +39,25 @@
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 100%; 
+  animation:top 3s linear 2;
+  animation-fill-mode: forwards;
+}
+@keyframes top {
+  0%{
+      transform: scaleY(0.5);
+       visibility: visible;     
+    }
+    25%{
+      transform:scaleY(1.5);
+       visibility: visible;     
+    }
+
+     100%{
+      transform: scaleY(1);
+       visibility: visible;     
+    }
+  
 }
 .anchor{
  
@@ -42,6 +66,7 @@
 }
 .anchor a{
 border-radius: 1rem;
+margin-bottom: 5rem;
 }
 
 .btn{
